@@ -123,6 +123,13 @@ function App() {
             <Box background="gray.100" w="100%" h="100%">
             <AbsoluteCenter w="100%">
               <Stack>
+                <Text
+                  color="skyblue"
+                  fontWeight="bold"
+                  textStyle="2xl"
+                >
+                  Short URL generator!
+                </Text>
                 <InputGroup startAddon={`${protocol}://`}>
                   <Input
                     placeholder="long.url.com"
